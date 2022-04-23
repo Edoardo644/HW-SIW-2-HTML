@@ -11,20 +11,19 @@ body{
 #MainInformation{
     margin-left: 3rem;
     width: 20%;
+    width: 450px;
+    
 }
 
 
 #Research{
-    position:absolute;
-    top: 30px;
-    left: 350px;
+    margin-left: 100px;
     background-color: lightgray;
     margin-right: 30px;
     padding-left: 30px;
     padding-right: 30px;
     border: 1px solid darkblue;
     border-radius: 15px;
-    display: inline;
     
 }
 
@@ -48,23 +47,16 @@ a:hover{
 }
 
 #didattica{
-    position: absolute;
-    top: 1700px;
+  
 }
 
 #redBar{
-    padding: 4px;
-    background-color: red;
-    left: 100px;
+   border: 7px solid rgb(241, 83, 83);
+  
 }
 
-#didatticaTitle{
-    text-decoration: underline;
-    font-family: sans-serif;
-
-}
-
-#tesi{
+#attivita{
+   font-size: 60px;
 }
 
 .headers{
@@ -76,10 +68,34 @@ a:hover{
     color: rgb(241, 83, 83);
 }
 
-.tableTitle{
+#flex-container{
+    display: flex;
+    justify-content: start;
+}
+
+#flex-container1{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    
+}
+
+#ricevimento{
+    background-color: rgb(238, 52, 52);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Open Sans';
     font-weight: bold;
 }
 
-.tables{
-   
+.didatticaTitle{
+    font-family: 'Oswald';
+    text-align: center;
+    color: rgb(32, 32, 32);
+}
+
+#tesi{
+    font-size: 30px;
+    text-align: center;
 }
