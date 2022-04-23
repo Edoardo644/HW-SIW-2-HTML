@@ -24,6 +24,7 @@ body{
     padding-right: 30px;
     border: 1px solid darkblue;
     border-radius: 15px;
+    display: inline;
     
 }
 
@@ -44,4 +45,41 @@ a:hover{
     color: white;
     padding: 3px;
     padding-left: 10px;
+}
+
+#didattica{
+    position: absolute;
+    top: 1700px;
+}
+
+#redBar{
+    padding: 4px;
+    background-color: red;
+    left: 100px;
+}
+
+#didatticaTitle{
+    text-decoration: underline;
+    font-family: sans-serif;
+
+}
+
+#tesi{
+}
+
+.headers{
+    font-weight: bold;
+}
+
+.AnniHeader{
+    font-size: x-large;
+    color: rgb(241, 83, 83);
+}
+
+.tableTitle{
+    font-weight: bold;
+}
+
+.tables{
+   
 }
