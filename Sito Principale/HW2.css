@@ -1,6 +1,7 @@
 
 body{
     font-family: Helvetica;
+    background-color: #faf5e4;
 }
 
 #NomeProf{
@@ -18,7 +19,7 @@ body{
 
 #Research{
     margin-left: 100px;
-    background-color: lightgray;
+    background-color: #ffd59e;
     margin-right: 30px;
     padding-left: 30px;
     padding-right: 30px;
@@ -28,27 +29,24 @@ body{
 }
 
 a{
-    color: darkblue;
+    color:  #125b50;
     text-decoration: none;
     font-weight: bold;
     
 }
 
 a:hover{
-    background-color: rgb(243, 243, 146);
+    background-color: rgb(245, 226, 226);
     text-decoration: underline;
 }
 
 .ParagraphTitle{
-    background-color: rgb(11,122,115);
+    background-color: rgb(241, 83, 83);
     color: white;
     padding: 3px;
     padding-left: 10px;
 }
 
-#didattica{
-  
-}
 
 #redBar{
    border: 7px solid rgb(241, 83, 83);
@@ -95,7 +93,4 @@ a:hover{
     color: rgb(32, 32, 32);
 }
 
-#tesi{
-    font-size: 30px;
-    text-align: center;
-}
+
